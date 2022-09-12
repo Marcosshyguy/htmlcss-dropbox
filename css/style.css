@@ -203,8 +203,26 @@ header{
     display: none;
 }
 
+/* footer */
 
+footer{
+    /* debug */
+    background-color: black;
+    color:white;
+    height: 400px;
+}
 
+.top-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 2em;
+}
+
+.links{
+    width: calc(100% / 5);
+}
 
 
 
