@@ -129,7 +129,6 @@ header{
     justify-content: space-between;
     align-items: flex-start;
 /* debug */
-    height: 400px;
     background-color: blanchedalmond;
     border: 1px solid black;
     gap:50px;
@@ -174,6 +173,27 @@ header{
     padding: 1.5em;
     text-align: left;
 }
+
+/* 7thsection */
+
+.row7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    height: 100px;
+    background-color: azure;
+    border: 1px solid black;
+}
+.col7{
+    width: calc(100% / 2);
+}
+
+
+
+
+
+
 
 
 
