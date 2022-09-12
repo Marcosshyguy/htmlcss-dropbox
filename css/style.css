@@ -24,10 +24,18 @@ ul{
     list-style-type: none;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,li{
     margin-bottom: 1em;
 }
 
+i,span{
+    margin-right: .3em;
+    
+}
+
+.clgrey{
+    color: #566D7D;
+}
 
 /* header */
 
@@ -210,6 +218,7 @@ footer{
     background-color: black;
     color:white;
     height: 400px;
+    padding: 2em;
 }
 
 .top-footer{
@@ -217,12 +226,12 @@ footer{
     justify-content: flex-start;
     align-items: flex-start;
 
-    padding: 2em;
 }
 
 .links{
     width: calc(100% / 5);
 }
+
 
 
 
