@@ -41,6 +41,11 @@ header{
     margin: 0 auto;
 }
 
+.medium-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
 
 /* navbar */
 .navbar{
@@ -93,4 +98,24 @@ header{
     width: 300px;
     border: 1px solid black;
 }
+
+/* first-section */
+
+.first-grid{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.col1{
+    width: calc(100% / 3 - 1em);
+    /* debug */
+    height: 400px;
+    background-color: azure;
+    border: 1px solid black;
+}
+
+
 
