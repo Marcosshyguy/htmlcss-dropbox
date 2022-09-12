@@ -33,16 +33,9 @@ i,span{
     
 }
 
-.clgrey{
-    color: #566D7D;
-}
-
-/* header */
-
-header{
-    /* debug */
-    height: 400px;
-    background-color: aqua;
+hr{
+    width: 10%;
+    color:#6A6A6A;
 }
 
 .large-container{
@@ -59,6 +52,19 @@ header{
     margin-top: 2em;
 }
 
+.clgrey{
+    color: #566D7D;
+}
+
+
+
+/* header */
+
+header{
+    /* debug */
+    height: 400px;
+    background-color: aqua;
+}
 
 /* navbar */
 .navbar{
@@ -66,16 +72,28 @@ header{
     justify-content: space-between;
     align-items: center;
 
-    /* position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 1.5em;
+
+    position: fixed;
     left:0;
-    bottom: 0;; */
-    /* debug */
-    min-height: 80px;
-    border: 1px blue solid;
+    top:0;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: calc(100% / 2);
+
 }
 
 .links span{
-    margin: 1em;
+    width: calc(100% / 4 - 2em);
+    flex-grow: 2;
 }
 
 /* jumbotron */
@@ -205,19 +223,29 @@ header{
     align-items: flex;
     padding: 2em;
 
+    border-top: 1px solid #6A6A6A;
+    border-bottom: 1px solid #6A6A6A;
+}
+
+.row8:nth-of-type(2n){
+    border: none;
+
 }
 
 .answer{
     display: none;
 }
 
+.col8 i:hover .answer{
+    display: block;
+}
+
 /* footer */
 
 footer{
-    /* debug */
     background-color: black;
     color:white;
-    height: 400px;
+
     padding: 2em;
 }
 
