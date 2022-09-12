@@ -1,0 +1,25 @@
+/* reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+/* common */
+img{
+    width:100%;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
