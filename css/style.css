@@ -24,7 +24,7 @@ ul{
     list-style-type: none;
 }
 
-h1{
+h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 1em;
 }
 
@@ -116,6 +116,30 @@ header{
     background-color: azure;
     border: 1px solid black;
 }
+
+/* second-section */
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+/* debug */
+    height: 150px;
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    gap:50px;
+}
+
+
+/* third-section */
+
+
+
+
+
+
+
+
 
 
 
