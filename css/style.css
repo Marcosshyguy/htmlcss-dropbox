@@ -23,3 +23,28 @@ a{
 ul{
     list-style-type: none;
 }
+
+/* header */
+
+header{
+    /* debug */
+    height: 400px;
+    background-color: aqua;
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* debug */
+    min-height: 80px;
+    border: 1px blue solid;
+}
+
+.links span{
+    margin: 1em;
+}
+
