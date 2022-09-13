@@ -63,6 +63,11 @@ hr{
     color: blue;
 }
 
+.border-wrap{
+    border: 1px solid grey;
+}
+}
+
 .clgray{
     color: #566D7D;
 }
@@ -242,7 +247,7 @@ hr{
 .title{
     text-align: center;
     padding: .4em 0;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .card-choose-big{
