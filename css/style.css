@@ -50,7 +50,11 @@ hr{
 }
 
 .mgt{
-    margin-top: 2em;
+    margin-top: 1em;
+}
+
+.mgt-big{
+    margin-top: 4em;
 }
 
 .mgb{
@@ -65,6 +69,34 @@ hr{
     color: blue;
 }
 
+.pad{
+    padding: 1em;
+}
+
+/* flex-utilities */
+
+.first-grid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+/* debug */
+    border: 1px solid black;
+}
+
+.col1{
+    width: 30%;
+}
+
+.col-60{
+    width: 60%;
+}
 
 /* button */
 .button-container{
@@ -157,18 +189,6 @@ hr{
     bottom: -50%;
 }
 
-/* flex-utilities */
-
-.first-grid{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.col1{
-    width: 30%;
-}
 
 
 /* first-section */
@@ -186,7 +206,7 @@ hr{
 .title{
     text-align: center;
     padding: .4em 0;
-    border-bottom: 1px solid gray;
+    border: 1px solid gray;
 }
 
 .card-choose-big{
@@ -206,14 +226,12 @@ hr{
 
 /* second-section third-section*/
 
-.row2{
+.row{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    flex-wrap: wrap;
 /* debug */
-    background-color: blanchedalmond;
     border: 1px solid black;
-    gap:50px;
 }
 
 
