@@ -54,6 +54,10 @@ hr{
     margin-top: 2em;
 }
 
+.mgb{
+    margin-bottom: 1em;
+}
+
 .clgrey{
     color: #566D7D;
 }
@@ -63,12 +67,10 @@ hr{
 .button{
     background-color: #0061FF;
     color: white;
+    font-size: 1rem;
     padding: .5em .8em;
+    border: none;
 }
-   
-    
-
-
 
 /* header */
 
@@ -86,6 +88,8 @@ hr{
     position: fixed;
     left:0;
     top:0;
+
+    z-index: 4;
 }
 
 .links{
@@ -116,8 +120,9 @@ hr{
     background-color: #B4D0E7;
 }
 
-
-
+.jumbotron-grid h1{
+    font-size: 3rem;
+}
 
 .jumbo-row{
         display: flex;
@@ -133,9 +138,16 @@ hr{
 
 .jumbo-col-small{
     width: 30%;
+    position: relative;
+    
 }
 
+[class*="fa-arrow-down-long"]{
+    font-size:3em;
 
+    position: absolute;
+    bottom: -50%;
+}
 
 /* first-section */
 
