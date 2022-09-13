@@ -84,7 +84,7 @@ hr{
 
 .row{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
 /* debug */
     border: 1px solid black;
@@ -109,6 +109,12 @@ hr{
     font-size: 1rem;
     padding: .5em .8em;
     border: none;
+}
+
+.blank-button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 /* header */
