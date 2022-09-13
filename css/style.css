@@ -74,8 +74,16 @@ hr{
     color: blue;
 }
 
+.bg-purple{
+    background-color: #B4D0E7;
+}
+
 .pad{
     padding: 1em;
+}
+
+.pad-big{
+    padding: 4em 0;
 }
 
 /* .wh-width{
@@ -112,6 +120,9 @@ hr{
     margin-right:1em;
 }
 
+.col-45{
+    width: 45%;
+}
 
 
 
@@ -132,6 +143,11 @@ hr{
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+.white-button{
+    border: none;
+    padding: .5em 1em;
 }
 
 /* header */
