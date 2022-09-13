@@ -209,7 +209,7 @@ hr{
 /* first-section */
 
 .card-choose{
-    
+    height: 100%;
     border: 1px solid gray;
 }
 
