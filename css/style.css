@@ -168,17 +168,20 @@ hr{
 
 .col1{
     width: 30%;
-    height: 100%;
 }
 
 
 /* first-section */
 
 .card-choose{
-    width: 100%;
-    padding: .1em 0;
+    
     border: 1px solid gray;
 }
+
+.card-choose-big{
+    width: 100%;
+}
+
 
 .title{
     text-align: center;
@@ -189,6 +192,16 @@ hr{
 .card-choose-big{
     width: 100%;
     padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.box{
+    height: calc(100% / 4 -1em);
+    flex-grow: 1;
 }
 
 /* second-section third-section*/
