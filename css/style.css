@@ -78,6 +78,9 @@ hr{
     padding: 1em;
 }
 
+/* .wh-width{
+    width: 100vw;
+} */
 /* flex-utilities */
 
 .first-grid{
@@ -244,14 +247,11 @@ hr{
     flex-grow: 1;
 }
 
-/* 4thsection */
-
 
 /* 6thsection */
-.card{
-    width: calc(100% /3 - 50px);  /*correcggere con altra classe*/
-    /* debug */
-    border: 1px solid black;
+.square{
+    width: calc(100% / 3); 
+   
 }
 
 .partner{
@@ -261,13 +261,16 @@ hr{
 }
 
 .partner img{
-    display: block;
     width: calc(100% / 2);
 }
 
 .main-partner{
     padding: 1.5em;
     text-align: left;
+}
+
+.main-partner img{
+    width:30%;
 }
 
 /* 7thsection */
