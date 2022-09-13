@@ -24,7 +24,7 @@ ul{
     list-style-type: none;
 }
 
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6,p,a{
     margin-bottom: 1em;
 }
 
@@ -36,18 +36,17 @@ i,span{
 hr{
     width: 10%;
     color:#6A6A6A;
+    margin: 1em 0;
 }
 
 .large-container{
     width: 70%;
     margin: 0 auto;
-    max-width: 1200px;
 }
 
 .medium-container{
     width: 50%;
     margin: 0 auto;
-    max-width: 1200px;
 }
 
 .mgt{
@@ -58,11 +57,19 @@ hr{
     margin-bottom: 1em;
 }
 
-.clgrey{
+.clgray{
     color: #566D7D;
 }
 
+.clblue{
+    color: blue;
+}
+
+
 /* button */
+.button-container{
+    text-align: center;
+}
 
 .button{
     background-color: #0061FF;
@@ -122,6 +129,7 @@ hr{
 
 .jumbotron-grid h1{
     font-size: 3rem;
+    width: 80%;
 }
 
 .jumbo-row{
@@ -149,22 +157,38 @@ hr{
     bottom: -50%;
 }
 
-/* first-section */
+/* flex-utilities */
 
 .first-grid{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 1em;
 }
 
 .col1{
-    width: calc(100% / 3 - 1em);
-    /* debug */
-    height: 400px;
-    background-color: azure;
-    border: 1px solid black;
+    width: 30%;
+    height: 100%;
+}
+
+
+/* first-section */
+
+.card-choose{
+    width: 100%;
+    padding: .1em 0;
+    border: 1px solid gray;
+}
+
+.title{
+    text-align: center;
+    padding: .4em 0;
+    border-bottom: 1px solid gray;
+}
+
+.card-choose-big{
+    width: 100%;
+    padding: 1em;
 }
 
 /* second-section third-section*/
