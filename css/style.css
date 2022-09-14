@@ -90,6 +90,8 @@ hr{
     background-color: #D5001F;
 }
 
+bg-brown
+
 .clgray{
     color: #566D7D;
 }
@@ -355,25 +357,30 @@ hr{
     overflow: hidden;
 } */
 
-.answer, .arrow.down{
+.answer{
     display: none;
 }
-/* .answer{
+
+.arrow-down{
     display: none;
-} */
+}
 
-
-
-.faq:hover .answer{
+.row8:hover .answer{
     display: block;
     /* height: 120px;
     overflow: none; */
 }
 
-/* .faq:hover i[class="fa-solid fa-angle-up"]{
-    display:none;
-} */
+.row8:hover .arrow-down{
+    display: block;
+    position: relative;
+    right: 5px;
+}
 
+.row8:hover .arrow-up{
+    display: none;
+
+}
 
 
 /* footer */
