@@ -82,6 +82,10 @@ hr{
     border: 1px solid grey;
 }
 
+.border-acqua-green{
+    outline: 1em solid #D1E9CD;
+}
+
 .bg-red1{
     background-color: #FF1C1C;
 }
@@ -90,7 +94,33 @@ hr{
     background-color: #D5001F;
 }
 
-bg-brown
+.bg-lg-blue{
+    background-color: #B4D0E7;
+}
+
+.bg-lg-blue2{
+    background-color: #0093CE;
+}
+
+.bg-aqua-green{
+    background-color: #A2D39B;
+}
+
+.bg-fucsia{
+    background-color: #61082B;
+}
+
+.bg-lg-blue2{
+    background-color: #0093CE;
+}
+
+.bg-dr-blue{
+    background-color: #0D2481;
+}
+
+.bg-yellow{
+    background-color: #FFD830;
+}
 
 .clgray{
     color: #566D7D;
@@ -100,15 +130,8 @@ bg-brown
     color: blue;
 }
 
-.bg-purple{
-    background-color: #B4D0E7;
-}
 
 
-
-/* .wh-width{
-    width: 100vw;
-} */
 /* flex-utilities */
 
 .first-grid{
@@ -319,9 +342,6 @@ bg-brown
     text-align: center;
     vertical-align: middle;
     position: relative;
-    /* debug */
-    border:1px black solid;
-    
 }
 
 .partner div img{
@@ -335,6 +355,7 @@ bg-brown
 .main-partner{
     padding: 1.5em;
     text-align: left;
+    background-color: #F5F5F5;
 }
 
 .main-partner img{
