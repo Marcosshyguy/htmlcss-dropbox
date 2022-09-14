@@ -286,6 +286,15 @@ bg-brown
     flex-grow: 1;
 }
 
+.box ul li{
+    display: flex;
+}
+
+.box i{
+    padding-top: .3em;
+}
+
+
 
 /* 6thsection */
 
