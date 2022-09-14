@@ -78,11 +78,13 @@ hr{
 
 /* common bg and color */
 
-
 .border-wrap{
     border: 1px solid grey;
 }
 
+.bg-red1{
+    background-color: red;
+}
 
 .clgray{
     color: #566D7D;
