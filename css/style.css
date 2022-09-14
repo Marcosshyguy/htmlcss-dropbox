@@ -364,7 +364,7 @@ hr{
 
 
 
-.arrow-down:hover .answer{
+.faq:hover .answer{
     display: block;
     /* height: 120px;
     overflow: none; */
