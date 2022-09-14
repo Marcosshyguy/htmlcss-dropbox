@@ -83,7 +83,11 @@ hr{
 }
 
 .bg-red1{
-    background-color: red;
+    background-color: #FF1C1C;
+}
+
+.bg-red2{
+    background-color: #D5001F;
 }
 
 .clgray{
@@ -360,7 +364,7 @@ hr{
 
 
 
-.arrow.down:hover .answer{
+.arrow-down:hover .answer{
     display: block;
     /* height: 120px;
     overflow: none; */
