@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+/* typography */
 html{
     font-family: 'Open Sans', sans-serif;
     font-size: 100%;
@@ -58,15 +59,26 @@ hr{
     margin-bottom: 1em;
 }
 
+.pad{
+    padding: 1em;
+}
+
+.pad-big{
+    padding: 4em 0;
+}
+
 .nr-link{
     text-decoration: underline;
     color: blue;
 }
 
+/* common bg and color */
+
+
 .border-wrap{
     border: 1px solid grey;
 }
-}
+
 
 .clgray{
     color: #566D7D;
@@ -80,13 +92,7 @@ hr{
     background-color: #B4D0E7;
 }
 
-.pad{
-    padding: 1em;
-}
 
-.pad-big{
-    padding: 4em 0;
-}
 
 /* .wh-width{
     width: 100vw;
@@ -137,7 +143,7 @@ hr{
     background-color: #0061FF;
     color: white;
     font-size: 1rem;
-    padding: .5em .8em;
+    padding: .7em .9em;
     border: none;
 }
 
@@ -169,7 +175,7 @@ hr{
     left:0;
     top:0;
 
-    z-index: 4;
+    z-index: 3;
 }
 
 .links{
@@ -177,6 +183,10 @@ hr{
     justify-content: space-between;
     line-height: 90px;
     vertical-align: middle;
+}
+
+.links img{
+    vertical-align: sub ;
 }
 
 .links ul{
@@ -242,6 +252,9 @@ hr{
 .card-choose-big{
     width: 100%;
 }
+.card-choose li{
+    margin-bottom: .8em;
+}
 
 
 .title{
@@ -269,8 +282,8 @@ hr{
 /* 6thsection */
 .square{
     width: calc(100% / 3); 
-   
 }
+
 
 .partner{
     display: flex;
@@ -278,8 +291,22 @@ hr{
     flex-wrap: wrap;
 }
 
-.partner img{
+.partner div{
     width: calc(100% / 2);
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    /* debug */
+    border:1px black solid;
+    
+}
+
+.partner div img{
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .main-partner{
