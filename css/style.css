@@ -59,6 +59,10 @@ hr{
     margin-bottom: 1em;
 }
 
+.mgt{
+    margin-top: 1em;
+}
+
 .pad{
     padding: 1em;
 }
@@ -280,10 +284,14 @@ hr{
 
 
 /* 6thsection */
-.square{
-    width: calc(100% / 3); 
+
+.widthv{
+    width: 100vw;
 }
 
+.square{
+    width: calc(100vw / 3);
+}
 
 .partner{
     display: flex;
