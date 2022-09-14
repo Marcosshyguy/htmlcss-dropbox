@@ -222,6 +222,11 @@ bg-brown
     background-color: #B4D0E7;
 }
 
+.jumbotron-grid{
+    position: relative;
+    top:50px;
+}
+
 .jumbotron-grid h1{
     font-size: 3rem;
     width: 80%;
