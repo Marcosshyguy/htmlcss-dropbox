@@ -250,15 +250,6 @@ bg-brown
     
 }
 
-[class*="fa-arrow-down-long"]{
-    font-size:3em;
-
-    position: absolute;
-    bottom: -50%;
-}
-
-
-
 /* first-section */
 
 .card-choose{
