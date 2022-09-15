@@ -362,6 +362,10 @@ hr{
     width:30%;
 }
 
+img[src="img/university_of_florida.svg"]{
+    filter: invert(100%);
+}
+
 /* 8thsection */
 
 .row8{
